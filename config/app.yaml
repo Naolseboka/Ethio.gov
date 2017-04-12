@@ -1,0 +1,4 @@
+env: development
+region: et
+locale: am
+log_level: info

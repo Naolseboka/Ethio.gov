@@ -1,0 +1,9 @@
+ethio.gov/
+*.pyc
+__pycache__/
+.env
+.DS_Store
+build/
+.gradle/
+*.egg-info/
+.venv/
