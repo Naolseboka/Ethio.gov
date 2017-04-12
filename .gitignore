@@ -1,0 +1,21 @@
+# Build outputs
+**/build/
+**/.gradle/
+**/out/
+**/.idea/
+*.iml
+*.class
+*.jar
+!**/gradle/wrapper/gradle-wrapper.jar
+
+# Local env
+.env
+.env.*
+.DS_Store
+*.pyc
+__pycache__/
+.venv/
+*.egg-info/
+
+# Logs
+*.log
