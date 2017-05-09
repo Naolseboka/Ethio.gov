@@ -18,4 +18,4 @@ Regional rollouts are gated by feature flags in `config/feature_flags.yaml`.
 
 ## License
 
-Internal government use.
+For authorized government use.
