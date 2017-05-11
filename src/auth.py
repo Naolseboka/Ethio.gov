@@ -1,7 +1,8 @@
 def authenticate(token):
-    if token is None or token == '':
+    if not token:
         return False
-    return len(token) > 8
+    parts = token.split('.')
+    return len(parts) == 3
 
 def require_role(user, role):
     roles = set((user or {}).get('roles') or [])
