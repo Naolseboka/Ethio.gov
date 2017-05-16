@@ -14,6 +14,8 @@ python -m src.main
 
 ## Notes
 
+Payment reconciliation runs in batches and records incomplete items for follow-up.
+
 Regional rollouts are gated by feature flags in `config/feature_flags.yaml`.
 
 ## License
