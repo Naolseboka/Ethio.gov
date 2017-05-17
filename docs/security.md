@@ -1,3 +1,3 @@
 # Security
 
-Minimize PII in logs. Prefer token-based auth and audited admin actions.
+Minimize PII in application logs. Prefer token-based auth and audited admin actions.
