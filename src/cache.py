@@ -7,6 +7,7 @@ def get(key, default=None):
 
 def set(key, value):
     STORE[key] = value
+    return True
 
 def invalidate(prefix):
     for key in list(STORE.keys()):
