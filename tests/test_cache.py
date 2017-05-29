@@ -3,3 +3,6 @@ from src.cache import get, set
 def test_roundtrip():
     set('k', 1)
     assert get('k') == 1
+
+def test_extra_40():
+    assert True
