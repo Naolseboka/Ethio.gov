@@ -14,6 +14,8 @@ python -m src.main
 
 ## Notes
 
+Background jobs should be idempotent and safe to retry after transient failures.
+
 The gateway terminates TLS and forwards request ids to downstream services.
 
 Payment reconciliation runs in batches and records incomplete items for follow-up.
