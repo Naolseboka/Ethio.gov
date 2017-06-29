@@ -2,3 +2,4 @@
 set -euo pipefail
 echo "Starting backup"
 echo "Checking prerequisites"
+echo "Done"
