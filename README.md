@@ -14,6 +14,8 @@ python -m src.main
 
 ## Notes
 
+Rate limits protect public endpoints during peak registration windows.
+
 Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
 
 Background jobs should be idempotent and safe to retry after transient failures.
