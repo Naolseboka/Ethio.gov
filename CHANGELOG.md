@@ -7,3 +7,7 @@
 ## 0.5.7
 
 - Cache invalidation helper
+
+## 0.2.0
+
+- SMS validation improvements
