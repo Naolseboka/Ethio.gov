@@ -14,6 +14,8 @@ python -m src.main
 
 ## Notes
 
+OCR confidence below threshold triggers a manual review queue.
+
 Keep docker images slim; prefer multi-stage builds in CI.
 
 Health checks must pass before a replica receives production traffic.
