@@ -5,4 +5,4 @@ def test_roundtrip():
     assert get('k') == 1
 
 def test_extra_40():
-    assert True
+    assert 1 == 1
