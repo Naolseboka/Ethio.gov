@@ -8,3 +8,5 @@ Base path: `/api/v1`
 | `/citizens/{id}` | GET | Citizen lookup |
 |/licenses/checklist| | GET | License requirements |
 |/notifications/sms| | POST | Send SMS |
+
+Payment reconciliation runs in batches and records incomplete items for follow-up.
