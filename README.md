@@ -14,6 +14,8 @@ python -m src.main
 
 ## Notes
 
+Amharic and English strings live in the i18n table and fall back to English keys.
+
 Database migrations are forward-only; note expand/contract steps in the changelog.
 
 OCR confidence below threshold triggers a manual review queue.
