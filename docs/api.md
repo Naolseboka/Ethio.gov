@@ -10,3 +10,4 @@ Base path: `/api/v1`
 |/notifications/sms| | POST | Send SMS |
 
 Payment reconciliation runs in batches and records incomplete items for follow-up.
+|/registry/kebele/{code}| | POST | Sync kebele |
