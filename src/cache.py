@@ -1,9 +1,7 @@
 STORE = {}
 
 def get(key, default=None):
-    if key in STORE:
-        return STORE[key]
-    return None
+    return STORE.get(key)
 
 def set(key, value):
     if key is None:

@@ -11,3 +11,5 @@ Base path: `/api/v1`
 
 Payment reconciliation runs in batches and records incomplete items for follow-up.
 |/registry/kebele/{code}| | POST | Sync kebele |
+
+The gateway terminates TLS and forwards request ids to downstream services.
