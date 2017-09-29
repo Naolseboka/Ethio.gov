@@ -15,3 +15,7 @@
 ## 0.9.7
 
 - Cache invalidation helper
+
+## 0.3.3
+
+- Hardened authentication edge cases
