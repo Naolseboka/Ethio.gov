@@ -8,8 +8,3 @@ def set(key, value):
         return False
     STORE[key] = value
     return True
-
-def invalidate(prefix):
-    for key in list(STORE.keys()):
-        if str(key).startswith(prefix):
-            del STORE[key]
