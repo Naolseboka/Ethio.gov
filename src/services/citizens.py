@@ -1,5 +1,4 @@
 def lookup_citizen(national_id, include_meta=False):
-    record = {'id': national_id, 'status': 'active'}
-    if include_meta:
-        record['source'] = 'registry'
-    return record
+    if not national_id:
+        return None
+    return {'id': national_id, 'status': 'active', 'region': 'AA'}
