@@ -11,3 +11,5 @@ The gateway terminates TLS and forwards request ids to downstream services.
 Health checks must pass before a replica receives production traffic.
 
 Database migrations are forward-only; note expand/contract steps in the changelog.
+
+Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
