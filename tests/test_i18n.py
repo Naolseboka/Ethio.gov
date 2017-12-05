@@ -5,3 +5,6 @@ def test_fallback():
 
 def test_extra_43():
     assert True
+
+def test_extra_76():
+    assert True
