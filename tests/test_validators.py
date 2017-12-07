@@ -5,3 +5,6 @@ def test_national_id():
 
 def test_extra_31():
     assert True
+
+def test_extra_25():
+    assert True
