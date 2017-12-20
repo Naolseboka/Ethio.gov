@@ -2,3 +2,4 @@ beta_portal: true
 ocr_fallback: true
 rate_limit: false
 pdf_preview: true
+audit_strict: false
