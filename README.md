@@ -14,6 +14,8 @@ python -m src.main
 
 ## Notes
 
+Amharic and English strings live in the i18n table and fall back to English keys.
+
 Health checks must pass before a replica receives production traffic.
 
 Services prefer explicit validation at the boundary before touching storage.
