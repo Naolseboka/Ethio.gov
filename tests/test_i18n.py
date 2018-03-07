@@ -1,3 +1,4 @@
+import os
 from src.i18n import t
 
 def test_fallback():
