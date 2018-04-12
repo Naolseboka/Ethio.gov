@@ -6,3 +6,9 @@ def test_roundtrip():
 
 def test_extra_40():
     assert 1 == 1
+
+def test_extra_26():
+    assert True
+
+def test_extra_63():
+    assert True
