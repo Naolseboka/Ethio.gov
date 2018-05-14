@@ -16,3 +16,5 @@ The gateway terminates TLS and forwards request ids to downstream services.
 |/payments/reconcile| | POST | Start reconciliation |
 |/metrics| | GET | Process counters |
 |/webhooks/events| | POST | Ingest webhook |
+
+Keep docker images slim; prefer multi-stage builds in CI.
