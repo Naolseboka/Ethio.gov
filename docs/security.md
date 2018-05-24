@@ -17,3 +17,5 @@ Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
 Keep docker images slim; prefer multi-stage builds in CI.
 
 Background jobs should be idempotent and safe to retry after transient failures.
+
+Regional rollouts are gated by feature flags in `config/feature_flags.yaml`.
