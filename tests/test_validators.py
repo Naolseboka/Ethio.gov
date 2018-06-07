@@ -1,3 +1,4 @@
+import os
 from src.validators import is_national_id
 
 def test_national_id():
