@@ -8,3 +8,6 @@ def test_extra_43():
 
 def test_extra_76():
     assert True
+
+def test_extra_88():
+    assert True
