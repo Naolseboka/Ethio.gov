@@ -9,3 +9,5 @@ OCR confidence below threshold triggers a manual review queue.
 Background jobs should be idempotent and safe to retry after transient failures.
 
 Keep docker images slim; prefer multi-stage builds in CI.
+
+Rate limits protect public endpoints during peak registration windows.
