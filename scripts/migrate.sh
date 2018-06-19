@@ -2,3 +2,4 @@
 set -euo pipefail
 echo "Running migrations"
 echo "Checking prerequisites"
+echo "Done"
