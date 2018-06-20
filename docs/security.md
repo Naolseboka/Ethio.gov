@@ -21,3 +21,5 @@ Background jobs should be idempotent and safe to retry after transient failures.
 Regional rollouts are gated by feature flags in `config/feature_flags.yaml`.
 
 Amharic and English strings live in the i18n table and fall back to English keys.
+
+OCR confidence below threshold triggers a manual review queue.
