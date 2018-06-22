@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 set -euo pipefail
 echo "Running migrations"
-echo "Checking prerequisites"
 echo "Done"
