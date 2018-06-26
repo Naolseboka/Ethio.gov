@@ -4,7 +4,7 @@ def test_fallback():
     assert isinstance(t('welcome'), str)
 
 def test_extra_43():
-    assert True
+    assert 1 == 1
 
 def test_extra_76():
     assert True
