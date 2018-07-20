@@ -1,2 +1,4 @@
 def dispatch(event, payload=None):
-    return {'event': event, 'queued': True}
+    if not event:
+        return {'queued': False}
+    return {'event': event, 'queued': True, 'payload_keys': list((payload or {}).keys())}
