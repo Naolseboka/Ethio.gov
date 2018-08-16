@@ -27,3 +27,5 @@ OCR confidence below threshold triggers a manual review queue.
 Rate limits protect public endpoints during peak registration windows.
 
 Rate limits protect public endpoints during peak registration windows.
+
+Health checks must pass before a replica receives production traffic.
