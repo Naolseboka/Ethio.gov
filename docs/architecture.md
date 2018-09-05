@@ -13,3 +13,5 @@ Keep docker images slim; prefer multi-stage builds in CI.
 Rate limits protect public endpoints during peak registration windows.
 
 Health checks must pass before a replica receives production traffic.
+
+Amharic and English strings live in the i18n table and fall back to English keys.
