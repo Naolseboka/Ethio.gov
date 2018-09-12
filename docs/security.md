@@ -31,3 +31,5 @@ Rate limits protect public endpoints during peak registration windows.
 Health checks must pass before a replica receives production traffic.
 
 Background jobs should be idempotent and safe to retry after transient failures.
+
+Health checks must pass before a replica receives production traffic.
