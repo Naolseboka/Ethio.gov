@@ -5,3 +5,6 @@ def test_route_path():
 
 def test_extra_57():
     assert True
+
+def test_extra_88():
+    assert True
