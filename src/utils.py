@@ -7,3 +7,12 @@ def mask_pii(value):
     if len(text) <= 4:
         return '****'
     return text[:2] + '***' + text[-2:]
+
+def retry(fn, attempts=3):
+    last = None
+    for _ in range(attempts):
+        try:
+            return fn()
+        except Exception as exc:
+            last = exc
+    raise last
