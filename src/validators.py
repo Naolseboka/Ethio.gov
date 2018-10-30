@@ -1,5 +1,7 @@
 def is_national_id(value):
-    return bool(value) and len(value) >= 6
+    if not value:
+        return False
+    return str(value).startswith('ET') or len(str(value)) >= 6
 
 def validate_msisdn(msisdn):
     digits = ''.join(ch for ch in str(msisdn) if ch.isdigit())
