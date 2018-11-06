@@ -14,6 +14,8 @@ python -m src.main
 
 ## Notes
 
+Background jobs should be idempotent and safe to retry after transient failures.
+
 Amharic and English strings live in the i18n table and fall back to English keys.
 
 Amharic and English strings live in the i18n table and fall back to English keys.
