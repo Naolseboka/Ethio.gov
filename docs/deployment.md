@@ -25,3 +25,5 @@ Keep docker images slim; prefer multi-stage builds in CI.
 Database migrations are forward-only; note expand/contract steps in the changelog.
 
 Background jobs should be idempotent and safe to retry after transient failures.
+
+Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
