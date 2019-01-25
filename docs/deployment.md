@@ -27,3 +27,5 @@ Database migrations are forward-only; note expand/contract steps in the changelo
 Background jobs should be idempotent and safe to retry after transient failures.
 
 Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
+
+Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
