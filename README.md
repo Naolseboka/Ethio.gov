@@ -14,6 +14,8 @@ python -m src.main
 
 ## Notes
 
+Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
+
 Background jobs should be idempotent and safe to retry after transient failures.
 
 Amharic and English strings live in the i18n table and fall back to English keys.
