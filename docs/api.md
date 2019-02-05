@@ -26,3 +26,5 @@ Amharic and English strings live in the i18n table and fall back to English keys
 Services prefer explicit validation at the boundary before touching storage.
 
 Regional rollouts are gated by feature flags in `config/feature_flags.yaml`.
+
+Health checks must pass before a replica receives production traffic.
