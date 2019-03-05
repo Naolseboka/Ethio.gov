@@ -31,3 +31,5 @@ Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
 Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
 
 Keep docker images slim; prefer multi-stage builds in CI.
+
+Regional rollouts are gated by feature flags in `config/feature_flags.yaml`.
