@@ -1,6 +1,5 @@
 def main():
     print('ethio.gov bootstrap')
-    return 0
 
 def health():
     return {'status': 'ok'}
