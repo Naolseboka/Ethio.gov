@@ -27,3 +27,7 @@
 ## 0.6.7
 
 - SMS validation improvements
+
+## 0.5.0
+
+- Hardened authentication edge cases
