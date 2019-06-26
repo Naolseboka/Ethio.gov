@@ -1,6 +1,6 @@
 # Ethio.gov Platform
 
-Digital public services for citizens and government agencies.
+Digital public service platform for citizens and government agencies.
 
 ## Overview
 
