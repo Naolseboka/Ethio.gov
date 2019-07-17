@@ -32,3 +32,5 @@ Health checks must pass before a replica receives production traffic.
 Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
 
 Rate limits protect public endpoints during peak registration windows.
+
+OCR confidence below threshold triggers a manual review queue.
