@@ -5,3 +5,6 @@ def test_chunks():
 
 def test_extra_25():
     assert True
+
+def test_extra_36():
+    assert True
