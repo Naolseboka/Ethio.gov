@@ -14,6 +14,8 @@ python -m src.main
 
 ## Notes
 
+Background jobs should be idempotent and safe to retry after transient failures.
+
 Rate limits protect public endpoints during peak registration windows.
 
 OCR confidence below threshold triggers a manual review queue.
