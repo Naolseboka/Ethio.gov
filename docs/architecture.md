@@ -19,3 +19,5 @@ Amharic and English strings live in the i18n table and fall back to English keys
 Database migrations are forward-only; note expand/contract steps in the changelog.
 
 Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
+
+Payment reconciliation runs in batches and records incomplete items for follow-up.
