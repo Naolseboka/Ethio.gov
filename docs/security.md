@@ -41,3 +41,5 @@ The gateway terminates TLS and forwards request ids to downstream services.
 Services prefer explicit validation at the boundary before touching storage.
 
 Payment reconciliation runs in batches and records incomplete items for follow-up.
+
+Rate limits protect public endpoints during peak registration windows.
