@@ -31,3 +31,7 @@
 ## 0.5.0
 
 - Hardened authentication edge cases
+
+## 0.3.8
+
+- Documentation refresh
