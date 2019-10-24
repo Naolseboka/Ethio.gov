@@ -1,0 +1,39 @@
+package et.gov.ethgov.developer.application.devapplication;
+
+import et.gov.ethgov.developer.domain.devapplication.Devapplication;
+import et.gov.ethgov.developer.domain.devapplication.DevapplicationId;
+import et.gov.ethgov.developer.domain.devapplication.DevapplicationRepository;
+import java.time.Clock;
+import java.time.Instant;
+import java.util.Objects;
+
+public final class CreateDevapplicationUseCase {
+    private final DevapplicationRepository repository;
+    private final Clock clock;
+
+    public CreateDevapplicationUseCase(DevapplicationRepository repository, Clock clock) {
+        this.repository = Objects.requireNonNull(repository, "repository");
+        this.clock = Objects.requireNonNull(clock, "clock");
+    }
+
+    public DevapplicationId execute(CreateDevapplicationCommand command) {
+        Objects.requireNonNull(command, "command");
+        Instant now = clock.instant();
+        Devapplication aggregate = Devapplication.create(
+                command.referenceCode(),
+                command.title(),
+                command.description(),
+                command.tenantId(),
+                now);
+        repository.save(aggregate);
+        return aggregate.id();
+    }
+
+    public record CreateDevapplicationCommand(
+            String referenceCode,
+            String title,
+            String description,
+            String tenantId,
+            String devapplicationId,
+            String reason) {}
+}
