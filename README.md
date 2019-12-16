@@ -14,6 +14,8 @@ python -m src.main
 
 ## Notes
 
+The gateway terminates TLS and forwards request ids to downstream services.
+
 Background jobs should be idempotent and safe to retry after transient failures.
 
 Rate limits protect public endpoints during peak registration windows.
