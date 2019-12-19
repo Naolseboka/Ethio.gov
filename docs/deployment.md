@@ -43,3 +43,5 @@ The gateway terminates TLS and forwards request ids to downstream services.
 Services prefer explicit validation at the boundary before touching storage.
 
 Keep docker images slim; prefer multi-stage builds in CI.
+
+Database migrations are forward-only; note expand/contract steps in the changelog.
