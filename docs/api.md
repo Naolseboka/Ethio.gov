@@ -40,3 +40,5 @@ Background jobs should be idempotent and safe to retry after transient failures.
 Services prefer explicit validation at the boundary before touching storage.
 
 Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
+
+Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
