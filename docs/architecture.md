@@ -21,3 +21,5 @@ Database migrations are forward-only; note expand/contract steps in the changelo
 Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
 
 Payment reconciliation runs in batches and records incomplete items for follow-up.
+
+Services prefer explicit validation at the boundary before touching storage.
