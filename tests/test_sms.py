@@ -4,7 +4,7 @@ def test_send_rejects_empty():
     assert send_sms('', 'hi') is False
 
 def test_extra_35():
-    assert True
+    assert 1 == 1
 
 def test_extra_52():
     assert True
