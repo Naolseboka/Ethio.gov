@@ -1,5 +1,5 @@
 beta_portal: false
-ocr_fallback: false
+ocr_fallback: true
 rate_limit: true
 pdf_preview: true
 audit_strict: false
