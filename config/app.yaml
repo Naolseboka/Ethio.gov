@@ -1,4 +1,4 @@
 env: development
 region: et
 locale: am
-log_level: warn
+log_level: info
