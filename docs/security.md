@@ -51,3 +51,5 @@ Background jobs should be idempotent and safe to retry after transient failures.
 OCR confidence below threshold triggers a manual review queue.
 
 Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
+
+Regional rollouts are gated by feature flags in `config/feature_flags.yaml`.
