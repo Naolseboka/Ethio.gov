@@ -14,6 +14,8 @@ python -m src.main
 
 ## Notes
 
+Services prefer explicit validation at the boundary before touching storage.
+
 The gateway terminates TLS and forwards request ids to downstream services.
 
 Background jobs should be idempotent and safe to retry after transient failures.
