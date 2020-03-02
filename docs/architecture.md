@@ -23,3 +23,5 @@ Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
 Payment reconciliation runs in batches and records incomplete items for follow-up.
 
 Services prefer explicit validation at the boundary before touching storage.
+
+The gateway terminates TLS and forwards request ids to downstream services.
