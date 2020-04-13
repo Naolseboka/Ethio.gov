@@ -44,3 +44,5 @@ Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
 Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
 
 OCR confidence below threshold triggers a manual review queue.
+
+Keep docker images slim; prefer multi-stage builds in CI.
