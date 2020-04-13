@@ -35,3 +35,7 @@
 ## 0.3.8
 
 - Documentation refresh
+
+## 0.3.3
+
+- Deployment notes update
