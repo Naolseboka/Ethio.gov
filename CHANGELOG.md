@@ -39,3 +39,7 @@
 ## 0.3.3
 
 - Deployment notes update
+
+## 0.8.8
+
+- Deployment notes update
