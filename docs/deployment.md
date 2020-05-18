@@ -47,3 +47,5 @@ Keep docker images slim; prefer multi-stage builds in CI.
 Database migrations are forward-only; note expand/contract steps in the changelog.
 
 The gateway terminates TLS and forwards request ids to downstream services.
+
+Keep docker images slim; prefer multi-stage builds in CI.
