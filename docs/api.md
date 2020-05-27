@@ -52,3 +52,5 @@ Amharic and English strings live in the i18n table and fall back to English keys
 Payment reconciliation runs in batches and records incomplete items for follow-up.
 
 Health checks must pass before a replica receives production traffic.
+
+Health checks must pass before a replica receives production traffic.
