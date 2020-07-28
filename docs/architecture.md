@@ -31,3 +31,5 @@ Keep docker images slim; prefer multi-stage builds in CI.
 Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
 
 Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
+
+Database migrations are forward-only; note expand/contract steps in the changelog.
