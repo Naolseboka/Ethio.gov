@@ -43,3 +43,7 @@
 ## 0.8.8
 
 - Deployment notes update
+
+## 0.4.3
+
+- Cache invalidation helper
