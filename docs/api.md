@@ -56,3 +56,5 @@ Health checks must pass before a replica receives production traffic.
 Health checks must pass before a replica receives production traffic.
 
 Payment reconciliation runs in batches and records incomplete items for follow-up.
+
+Health checks must pass before a replica receives production traffic.
