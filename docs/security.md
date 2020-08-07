@@ -55,3 +55,5 @@ Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
 Regional rollouts are gated by feature flags in `config/feature_flags.yaml`.
 
 Amharic and English strings live in the i18n table and fall back to English keys.
+
+Regional rollouts are gated by feature flags in `config/feature_flags.yaml`.
