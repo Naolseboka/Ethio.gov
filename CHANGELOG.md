@@ -47,3 +47,7 @@
 ## 0.4.3
 
 - Cache invalidation helper
+
+## 0.4.7
+
+- Deployment notes update
