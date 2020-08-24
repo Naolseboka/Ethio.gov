@@ -58,3 +58,5 @@ Health checks must pass before a replica receives production traffic.
 Payment reconciliation runs in batches and records incomplete items for follow-up.
 
 Health checks must pass before a replica receives production traffic.
+
+The gateway terminates TLS and forwards request ids to downstream services.
