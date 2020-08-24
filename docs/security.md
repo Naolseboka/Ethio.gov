@@ -57,3 +57,5 @@ Regional rollouts are gated by feature flags in `config/feature_flags.yaml`.
 Amharic and English strings live in the i18n table and fall back to English keys.
 
 Regional rollouts are gated by feature flags in `config/feature_flags.yaml`.
+
+Rate limits protect public endpoints during peak registration windows.
