@@ -51,3 +51,7 @@
 ## 0.4.7
 
 - Deployment notes update
+
+## 0.7.7
+
+- Documentation refresh
