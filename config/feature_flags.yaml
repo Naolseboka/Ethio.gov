@@ -4,3 +4,4 @@ rate_limit: true
 pdf_preview: true
 audit_strict: false
 sms_v2: true
+  - DD
