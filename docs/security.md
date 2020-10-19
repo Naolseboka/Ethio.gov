@@ -61,3 +61,5 @@ Regional rollouts are gated by feature flags in `config/feature_flags.yaml`.
 Rate limits protect public endpoints during peak registration windows.
 
 Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
+
+Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
