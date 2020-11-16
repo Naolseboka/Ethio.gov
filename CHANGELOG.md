@@ -55,3 +55,7 @@
 ## 0.7.7
 
 - Documentation refresh
+
+## 0.4.0
+
+- Documentation refresh
