@@ -57,3 +57,5 @@ Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
 Payment reconciliation runs in batches and records incomplete items for follow-up.
 
 OCR confidence below threshold triggers a manual review queue.
+
+Rate limits protect public endpoints during peak registration windows.
