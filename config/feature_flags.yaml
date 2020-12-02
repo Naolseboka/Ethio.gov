@@ -1,6 +1,6 @@
 beta_portal: false
 ocr_fallback: false
-rate_limit: true
+rate_limit: false
 pdf_preview: true
 audit_strict: false
 sms_v2: true
