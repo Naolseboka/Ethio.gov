@@ -59,3 +59,5 @@ Payment reconciliation runs in batches and records incomplete items for follow-u
 OCR confidence below threshold triggers a manual review queue.
 
 Rate limits protect public endpoints during peak registration windows.
+
+Services prefer explicit validation at the boundary before touching storage.
