@@ -63,3 +63,5 @@ Rate limits protect public endpoints during peak registration windows.
 Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
 
 Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
+
+Database migrations are forward-only; note expand/contract steps in the changelog.
