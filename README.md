@@ -16,6 +16,8 @@ python -m src.main
 
 Services prefer explicit validation at the boundary before touching storage.
 
+Services prefer explicit validation at the boundary before touching storage.
+
 Keep docker images slim; prefer multi-stage builds in CI.
 
 Services prefer explicit validation at the boundary before touching storage.
