@@ -37,3 +37,5 @@ Database migrations are forward-only; note expand/contract steps in the changelo
 Regional rollouts are gated by feature flags in `config/feature_flags.yaml`.
 
 Payment reconciliation runs in batches and records incomplete items for follow-up.
+
+Keep docker images slim; prefer multi-stage builds in CI.
