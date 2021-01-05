@@ -59,3 +59,7 @@
 ## 0.4.0
 
 - Documentation refresh
+
+## 0.5.9
+
+- Documentation refresh
