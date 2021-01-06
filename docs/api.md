@@ -64,3 +64,5 @@ The gateway terminates TLS and forwards request ids to downstream services.
 Regional rollouts are gated by feature flags in `config/feature_flags.yaml`.
 
 OCR confidence below threshold triggers a manual review queue.
+
+Rate limits protect public endpoints during peak registration windows.
