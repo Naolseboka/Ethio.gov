@@ -39,3 +39,5 @@ Regional rollouts are gated by feature flags in `config/feature_flags.yaml`.
 Payment reconciliation runs in batches and records incomplete items for follow-up.
 
 Keep docker images slim; prefer multi-stage builds in CI.
+
+Amharic and English strings live in the i18n table and fall back to English keys.
