@@ -63,3 +63,7 @@
 ## 0.5.9
 
 - Documentation refresh
+
+## 0.4.5
+
+- Documentation refresh
