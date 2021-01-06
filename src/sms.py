@@ -1,5 +1,4 @@
 def send_sms(msisdn, body=''):
-    msisdn = str(msisdn).strip()
-    if len(msisdn) < 9:
+    if not msisdn or not body:
         return False
     return True
