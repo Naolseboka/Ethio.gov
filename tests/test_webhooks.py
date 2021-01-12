@@ -1,4 +1,3 @@
-import os
 from src.webhooks import dispatch
 
 def test_dispatch():
