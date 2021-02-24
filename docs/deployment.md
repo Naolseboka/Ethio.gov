@@ -67,3 +67,5 @@ Amharic and English strings live in the i18n table and fall back to English keys
 Background jobs should be idempotent and safe to retry after transient failures.
 
 Health checks must pass before a replica receives production traffic.
+
+Database migrations are forward-only; note expand/contract steps in the changelog.
