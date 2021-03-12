@@ -69,3 +69,5 @@ Database migrations are forward-only; note expand/contract steps in the changelo
 Keep docker images slim; prefer multi-stage builds in CI.
 
 Database migrations are forward-only; note expand/contract steps in the changelog.
+
+Database migrations are forward-only; note expand/contract steps in the changelog.
