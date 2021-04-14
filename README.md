@@ -16,6 +16,8 @@ python -m src.main
 
 Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
 
+Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
+
 Services prefer explicit validation at the boundary before touching storage.
 
 Services prefer explicit validation at the boundary before touching storage.
