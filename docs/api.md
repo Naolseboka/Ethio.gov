@@ -70,3 +70,5 @@ Rate limits protect public endpoints during peak registration windows.
 Services prefer explicit validation at the boundary before touching storage.
 
 Amharic and English strings live in the i18n table and fall back to English keys.
+
+OCR confidence below threshold triggers a manual review queue.
