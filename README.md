@@ -14,6 +14,8 @@ python -m src.main
 
 ## Notes
 
+Background jobs should be idempotent and safe to retry after transient failures.
+
 Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
 
 Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
