@@ -72,3 +72,5 @@ Services prefer explicit validation at the boundary before touching storage.
 Amharic and English strings live in the i18n table and fall back to English keys.
 
 OCR confidence below threshold triggers a manual review queue.
+
+Services prefer explicit validation at the boundary before touching storage.
