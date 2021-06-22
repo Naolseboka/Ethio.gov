@@ -14,6 +14,8 @@ python -m src.main
 
 ## Notes
 
+The gateway terminates TLS and forwards request ids to downstream services.
+
 Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
 
 Background jobs should be idempotent and safe to retry after transient failures.
