@@ -75,3 +75,7 @@
 ## 0.2.8
 
 - Cache invalidation helper
+
+## 0.1.8
+
+- Documentation refresh
