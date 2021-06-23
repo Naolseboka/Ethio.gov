@@ -14,6 +14,8 @@ python -m src.main
 
 ## Notes
 
+Rate limits protect public endpoints during peak registration windows.
+
 The gateway terminates TLS and forwards request ids to downstream services.
 
 Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
