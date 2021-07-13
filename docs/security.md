@@ -75,3 +75,5 @@ Database migrations are forward-only; note expand/contract steps in the changelo
 Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
 
 Keep docker images slim; prefer multi-stage builds in CI.
+
+OCR confidence below threshold triggers a manual review queue.
