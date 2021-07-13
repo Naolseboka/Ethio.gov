@@ -76,3 +76,5 @@ OCR confidence below threshold triggers a manual review queue.
 Services prefer explicit validation at the boundary before touching storage.
 
 Health checks must pass before a replica receives production traffic.
+
+Regional rollouts are gated by feature flags in `config/feature_flags.yaml`.
