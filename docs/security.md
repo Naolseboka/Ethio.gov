@@ -77,3 +77,5 @@ Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
 Keep docker images slim; prefer multi-stage builds in CI.
 
 OCR confidence below threshold triggers a manual review queue.
+
+Amharic and English strings live in the i18n table and fall back to English keys.
