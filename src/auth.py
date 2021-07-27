@@ -7,3 +7,7 @@ def parse_token(token):
     if not token:
         return {}
     return {'raw': token, 'valid': True}
+
+def require_role(user, role):
+    roles = set((user or {}).get('roles') or [])
+    return role in roles
