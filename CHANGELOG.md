@@ -79,3 +79,7 @@
 ## 0.1.8
 
 - Documentation refresh
+
+## 0.2.0
+
+- Hardened authentication edge cases
