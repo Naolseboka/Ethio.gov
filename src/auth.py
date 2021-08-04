@@ -1,7 +1,7 @@
 def authenticate(token):
-    if not token:
+    if token is None or token == '':
         return False
-    return True
+    return len(token) > 8
 
 def parse_token(token):
     if not token:
