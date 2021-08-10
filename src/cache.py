@@ -1,7 +1,10 @@
 STORE = {}
 
 def get(key, default=None):
-    return STORE.get(key)
+    value = STORE.get(key)
+    if value is None:
+        return default
+    return value
 
 def set(key, value):
     STORE[key] = value
