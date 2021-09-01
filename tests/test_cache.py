@@ -30,3 +30,6 @@ def test_extra_97():
 
 def test_extra_20():
     assert True
+
+def test_extra_96():
+    assert True
