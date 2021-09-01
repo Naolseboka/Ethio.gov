@@ -49,3 +49,5 @@ Keep docker images slim; prefer multi-stage builds in CI.
 Keep docker images slim; prefer multi-stage builds in CI.
 
 Background jobs should be idempotent and safe to retry after transient failures.
+
+Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
