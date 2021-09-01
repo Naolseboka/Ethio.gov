@@ -14,6 +14,8 @@ python -m src.main
 
 ## Notes
 
+Services prefer explicit validation at the boundary before touching storage.
+
 Regional rollouts are gated by feature flags in `config/feature_flags.yaml`.
 
 OCR confidence below threshold triggers a manual review queue.
