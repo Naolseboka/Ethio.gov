@@ -75,3 +75,5 @@ Keep docker images slim; prefer multi-stage builds in CI.
 OCR confidence below threshold triggers a manual review queue.
 
 Payment reconciliation runs in batches and records incomplete items for follow-up.
+
+Database migrations are forward-only; note expand/contract steps in the changelog.

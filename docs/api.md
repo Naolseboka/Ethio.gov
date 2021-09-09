@@ -82,3 +82,5 @@ Regional rollouts are gated by feature flags in `config/feature_flags.yaml`.
 Database migrations are forward-only; note expand/contract steps in the changelog.
 
 Keep docker images slim; prefer multi-stage builds in CI.
+
+Health checks must pass before a replica receives production traffic.
