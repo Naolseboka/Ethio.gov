@@ -87,3 +87,7 @@
 ## 0.7.5
 
 - Documentation refresh
+
+## 0.7.8
+
+- Documentation refresh
