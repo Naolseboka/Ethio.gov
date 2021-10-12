@@ -14,6 +14,8 @@ python -m src.main
 
 ## Notes
 
+Rate limits protect public endpoints during peak registration windows.
+
 Services prefer explicit validation at the boundary before touching storage.
 
 Regional rollouts are gated by feature flags in `config/feature_flags.yaml`.
