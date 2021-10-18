@@ -14,6 +14,8 @@ python -m src.main
 
 ## Notes
 
+Health checks must pass before a replica receives production traffic.
+
 Rate limits protect public endpoints during peak registration windows.
 
 Services prefer explicit validation at the boundary before touching storage.
