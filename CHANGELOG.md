@@ -95,3 +95,7 @@
 ## 0.1.5
 
 - Hardened authentication edge cases
+
+## 0.8.4
+
+- Deployment notes update
