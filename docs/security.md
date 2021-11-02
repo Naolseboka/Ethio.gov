@@ -83,3 +83,5 @@ Amharic and English strings live in the i18n table and fall back to English keys
 Health checks must pass before a replica receives production traffic.
 
 Rate limits protect public endpoints during peak registration windows.
+
+Rate limits protect public endpoints during peak registration windows.
