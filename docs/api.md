@@ -84,3 +84,5 @@ Database migrations are forward-only; note expand/contract steps in the changelo
 Keep docker images slim; prefer multi-stage builds in CI.
 
 Health checks must pass before a replica receives production traffic.
+
+Background jobs should be idempotent and safe to retry after transient failures.
