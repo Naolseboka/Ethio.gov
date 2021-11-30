@@ -1,4 +1,3 @@
-import json
 def seed():
     print('Seeding reference data')
 
