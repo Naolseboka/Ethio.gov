@@ -99,3 +99,7 @@
 ## 0.8.4
 
 - Deployment notes update
+
+## 0.3.4
+
+- SMS validation improvements
