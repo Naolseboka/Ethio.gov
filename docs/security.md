@@ -85,3 +85,5 @@ Health checks must pass before a replica receives production traffic.
 Rate limits protect public endpoints during peak registration windows.
 
 Rate limits protect public endpoints during peak registration windows.
+
+Keep docker images slim; prefer multi-stage builds in CI.
