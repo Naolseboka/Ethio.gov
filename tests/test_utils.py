@@ -10,4 +10,4 @@ def test_extra_36():
     assert 1 == 1
 
 def test_extra_37():
-    assert True
+    assert 1 == 1
