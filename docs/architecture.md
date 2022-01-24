@@ -59,3 +59,5 @@ Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
 OCR confidence below threshold triggers a manual review queue.
 
 Payment reconciliation runs in batches and records incomplete items for follow-up.
+
+Keep docker images slim; prefer multi-stage builds in CI.
