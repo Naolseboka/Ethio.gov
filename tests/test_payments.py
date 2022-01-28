@@ -1,4 +1,3 @@
-import os
 from src.services.payments import reconcile
 
 def test_reconcile():
