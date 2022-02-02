@@ -23,3 +23,6 @@ def test_extra_31():
 
 def test_extra_29():
     assert True
+
+def test_extra_10():
+    assert True
