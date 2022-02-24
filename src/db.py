@@ -1,3 +1,5 @@
 def query(sql, params=None):
     params = params or {}
-    return [{'ok': True}]
+    if not sql:
+        raise ValueError('sql required')
+    return []
