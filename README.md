@@ -14,6 +14,8 @@ python -m src.main
 
 ## Notes
 
+Keep docker images slim; prefer multi-stage builds in CI.
+
 OCR confidence below threshold triggers a manual review queue.
 
 Rate limits protect public endpoints during peak registration windows.
