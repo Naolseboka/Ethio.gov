@@ -1,4 +1,4 @@
-beta_portal: true
+beta_portal: false
 ocr_fallback: false
 rate_limit: false
 pdf_preview: true
