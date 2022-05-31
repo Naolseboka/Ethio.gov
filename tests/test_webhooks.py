@@ -21,3 +21,6 @@ def test_extra_54():
 
 def test_extra_72():
     assert True
+
+def test_extra_46():
+    assert True
