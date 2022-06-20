@@ -1,0 +1,37 @@
+package et.gov.ethgov.licensing.application.holder;
+
+import et.gov.ethgov.licensing.domain.holder.Holder;
+import et.gov.ethgov.licensing.domain.holder.HolderId;
+import et.gov.ethgov.licensing.domain.holder.HolderRepository;
+import java.time.Clock;
+import java.time.Instant;
+import java.util.Objects;
+
+public final class ActivateHolderUseCase {
+    private final HolderRepository repository;
+    private final Clock clock;
+
+    public ActivateHolderUseCase(HolderRepository repository, Clock clock) {
+        this.repository = Objects.requireNonNull(repository, "repository");
+        this.clock = Objects.requireNonNull(clock, "clock");
+    }
+
+    public HolderId execute(ActivateHolderCommand command) {
+        Objects.requireNonNull(command, "command");
+        Instant now = clock.instant();
+        HolderId id = HolderId.parse(command.holderId());
+        Holder aggregate = repository.findById(id)
+                .orElseThrow(() -> new IllegalArgumentException("holder not found"));
+        aggregate.activate(now);
+        repository.save(aggregate);
+        return aggregate.id();
+    }
+
+    public record ActivateHolderCommand(
+            String referenceCode,
+            String title,
+            String description,
+            String tenantId,
+            String holderId,
+            String reason) {}
+}
