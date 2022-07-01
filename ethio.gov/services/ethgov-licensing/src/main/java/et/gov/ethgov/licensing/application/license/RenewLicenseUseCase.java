@@ -1,0 +1,37 @@
+package et.gov.ethgov.licensing.application.license;
+
+import et.gov.ethgov.licensing.application.LicensingEventPublisher;
+import et.gov.ethgov.licensing.domain.license.BusinessLicense;
+import et.gov.ethgov.licensing.domain.license.LicenseId;
+import et.gov.ethgov.licensing.domain.license.LicenseRepository;
+import et.gov.ethgov.platform.commons.error.DomainException;
+import java.time.Clock;
+import java.time.Instant;
+import java.util.Objects;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+@Service
+public class RenewLicenseUseCase {
+
+    private final LicenseRepository licenses;
+    private final LicensingEventPublisher eventPublisher;
+    private final Clock clock;
+
+    public RenewLicenseUseCase(LicenseRepository licenses, LicensingEventPublisher eventPublisher, Clock clock) {
+        this.licenses = licenses;
+        this.eventPublisher = eventPublisher;
+        this.clock = clock;
+    }
+
+    @Transactional
+    public void execute(String licenseId, String newValidTo) {
+        Objects.requireNonNull(licenseId, "licenseId");
+        BusinessLicense license = licenses.findById(LicenseId.of(licenseId))
+                .orElseThrow(() -> new DomainException(
+                        "LICENSE_NOT_FOUND", "License Not Found", "License does not exist", 404));
+        license.renew(Instant.parse(newValidTo), clock.instant());
+        licenses.save(license);
+        eventPublisher.publishAll(license.pullDomainEvents());
+    }
+}
