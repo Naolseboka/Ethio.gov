@@ -94,3 +94,5 @@ Background jobs should be idempotent and safe to retry after transient failures.
 Services prefer explicit validation at the boundary before touching storage.
 
 Regional rollouts are gated by feature flags in `config/feature_flags.yaml`.
+
+The gateway terminates TLS and forwards request ids to downstream services.
