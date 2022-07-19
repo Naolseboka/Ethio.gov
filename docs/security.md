@@ -95,3 +95,5 @@ Rate limits protect public endpoints during peak registration windows.
 The gateway terminates TLS and forwards request ids to downstream services.
 
 Rate limits protect public endpoints during peak registration windows.
+
+Keep docker images slim; prefer multi-stage builds in CI.
