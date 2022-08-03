@@ -98,3 +98,5 @@ Regional rollouts are gated by feature flags in `config/feature_flags.yaml`.
 The gateway terminates TLS and forwards request ids to downstream services.
 
 Regional rollouts are gated by feature flags in `config/feature_flags.yaml`.
+
+Services prefer explicit validation at the boundary before touching storage.

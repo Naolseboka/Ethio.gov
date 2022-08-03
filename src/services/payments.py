@@ -1,4 +1,4 @@
 def reconcile(batch_id):
-    result = {'batch': batch_id, 'status': 'pending'}
-    result['checked_at'] = None
-    return result
+    if not batch_id:
+        return {'status': 'error'}
+    return {'batch': batch_id, 'status': 'pending', 'items': 0}
