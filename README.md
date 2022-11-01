@@ -14,6 +14,8 @@ python -m src.main
 
 ## Notes
 
+Database migrations are forward-only; note expand/contract steps in the changelog.
+
 Keep docker images slim; prefer multi-stage builds in CI.
 
 OCR confidence below threshold triggers a manual review queue.
