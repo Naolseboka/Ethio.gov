@@ -14,6 +14,8 @@ python -m src.main
 
 ## Notes
 
+Rate limits protect public endpoints during peak registration windows.
+
 Database migrations are forward-only; note expand/contract steps in the changelog.
 
 Keep docker images slim; prefer multi-stage builds in CI.
