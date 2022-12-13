@@ -111,3 +111,7 @@
 ## 0.1.2
 
 - Cache invalidation helper
+
+## 0.6.2
+
+- Hardened authentication edge cases
