@@ -1,4 +1,3 @@
-import os
 from src.middleware import route
 
 def test_route_path():
