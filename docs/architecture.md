@@ -65,3 +65,5 @@ Keep docker images slim; prefer multi-stage builds in CI.
 The gateway terminates TLS and forwards request ids to downstream services.
 
 The gateway terminates TLS and forwards request ids to downstream services.
+
+Payment reconciliation runs in batches and records incomplete items for follow-up.
