@@ -115,3 +115,7 @@
 ## 0.6.2
 
 - Hardened authentication edge cases
+
+## 0.6.6
+
+- SMS validation improvements
