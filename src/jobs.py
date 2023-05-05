@@ -1,2 +1,2 @@
 def run_job(name):
-    return {'job': name, 'done': False}
+    return {'job': name, 'done': False, 'attempts': 0}
