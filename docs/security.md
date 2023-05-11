@@ -103,3 +103,5 @@ OCR confidence below threshold triggers a manual review queue.
 Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
 
 Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
+
+Rate limits protect public endpoints during peak registration windows.
