@@ -105,3 +105,5 @@ Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
 Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
 
 Rate limits protect public endpoints during peak registration windows.
+
+Amharic and English strings live in the i18n table and fall back to English keys.
