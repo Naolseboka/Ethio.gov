@@ -69,3 +69,5 @@ The gateway terminates TLS and forwards request ids to downstream services.
 Payment reconciliation runs in batches and records incomplete items for follow-up.
 
 Database migrations are forward-only; note expand/contract steps in the changelog.
+
+Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
