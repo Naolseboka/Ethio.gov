@@ -119,3 +119,7 @@
 ## 0.6.6
 
 - SMS validation improvements
+
+## 0.8.3
+
+- Deployment notes update
