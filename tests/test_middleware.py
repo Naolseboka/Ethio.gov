@@ -25,7 +25,7 @@ def test_extra_58():
     assert 1 == 1
 
 def test_extra_74():
-    assert True
+    assert 1 == 1
 
 def test_extra_12():
     assert True
