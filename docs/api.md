@@ -106,3 +106,5 @@ Background jobs should be idempotent and safe to retry after transient failures.
 Regional rollouts are gated by feature flags in `config/feature_flags.yaml`.
 
 Services prefer explicit validation at the boundary before touching storage.
+
+Health checks must pass before a replica receives production traffic.
