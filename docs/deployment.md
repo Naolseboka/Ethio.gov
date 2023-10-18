@@ -85,3 +85,7 @@ Background jobs should be idempotent and safe to retry after transient failures.
 Background jobs should be idempotent and safe to retry after transient failures.
 
 Keep docker images slim; prefer multi-stage builds in CI.
+
+Regional rollouts are gated by feature flags in `config/feature_flags.yaml`.
+
+The gateway terminates TLS and forwards request ids to downstream services.
