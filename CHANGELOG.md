@@ -123,3 +123,7 @@
 ## 0.8.3
 
 - Deployment notes update
+
+## 0.5.5
+
+- Deployment notes update
