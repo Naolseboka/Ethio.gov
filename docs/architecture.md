@@ -73,3 +73,5 @@ Database migrations are forward-only; note expand/contract steps in the changelo
 Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
 
 OCR confidence below threshold triggers a manual review queue.
+
+Payment reconciliation runs in batches and records incomplete items for follow-up.
