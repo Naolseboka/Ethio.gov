@@ -89,3 +89,5 @@ Keep docker images slim; prefer multi-stage builds in CI.
 Regional rollouts are gated by feature flags in `config/feature_flags.yaml`.
 
 The gateway terminates TLS and forwards request ids to downstream services.
+
+Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
