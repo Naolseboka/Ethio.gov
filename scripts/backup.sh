@@ -3,3 +3,4 @@ set -euo pipefail
 echo "Starting backup"
 DATE=$(date -u +%Y%m%d)
 echo "Checking prerequisites"
+echo "Done"
