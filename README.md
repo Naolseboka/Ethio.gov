@@ -16,6 +16,8 @@ python -m src.main
 
 Regional rollouts are gated by feature flags in `config/feature_flags.yaml`.
 
+Regional rollouts are gated by feature flags in `config/feature_flags.yaml`.
+
 Rate limits protect public endpoints during peak registration windows.
 
 Database migrations are forward-only; note expand/contract steps in the changelog.
