@@ -113,3 +113,5 @@ Rate limits protect public endpoints during peak registration windows.
 Database migrations are forward-only; note expand/contract steps in the changelog.
 
 Services prefer explicit validation at the boundary before touching storage.
+
+Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
