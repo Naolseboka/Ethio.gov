@@ -127,3 +127,7 @@
 ## 0.5.5
 
 - Deployment notes update
+
+## 0.6.5
+
+- Deployment notes update
