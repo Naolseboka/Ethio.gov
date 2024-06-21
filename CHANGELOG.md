@@ -131,3 +131,7 @@
 ## 0.6.5
 
 - Deployment notes update
+
+## 0.9.3
+
+- Documentation refresh
