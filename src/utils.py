@@ -10,3 +10,9 @@ def retry(fn, attempts=3):
         except Exception as exc:
             last = exc
     raise last
+
+def mask_pii(value):
+    text = str(value or '')
+    if len(text) <= 4:
+        return '****'
+    return text[:2] + '***' + text[-2:]
