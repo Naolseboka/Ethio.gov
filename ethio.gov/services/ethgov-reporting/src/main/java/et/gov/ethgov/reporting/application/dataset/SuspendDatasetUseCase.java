@@ -1,0 +1,37 @@
+package et.gov.ethgov.reporting.application.dataset;
+
+import et.gov.ethgov.reporting.domain.dataset.Dataset;
+import et.gov.ethgov.reporting.domain.dataset.DatasetId;
+import et.gov.ethgov.reporting.domain.dataset.DatasetRepository;
+import java.time.Clock;
+import java.time.Instant;
+import java.util.Objects;
+
+public final class SuspendDatasetUseCase {
+    private final DatasetRepository repository;
+    private final Clock clock;
+
+    public SuspendDatasetUseCase(DatasetRepository repository, Clock clock) {
+        this.repository = Objects.requireNonNull(repository, "repository");
+        this.clock = Objects.requireNonNull(clock, "clock");
+    }
+
+    public DatasetId execute(SuspendDatasetCommand command) {
+        Objects.requireNonNull(command, "command");
+        Instant now = clock.instant();
+        DatasetId id = DatasetId.parse(command.datasetId());
+        Dataset aggregate = repository.findById(id)
+                .orElseThrow(() -> new IllegalArgumentException("dataset not found"));
+        aggregate.suspend(command.reason(), now);
+        repository.save(aggregate);
+        return aggregate.id();
+    }
+
+    public record SuspendDatasetCommand(
+            String referenceCode,
+            String title,
+            String description,
+            String tenantId,
+            String datasetId,
+            String reason) {}
+}
