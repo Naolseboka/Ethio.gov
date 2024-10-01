@@ -135,3 +135,7 @@
 ## 0.9.3
 
 - Documentation refresh
+
+## 0.5.9
+
+- Cache invalidation helper
