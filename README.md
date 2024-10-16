@@ -14,6 +14,8 @@ python -m src.main
 
 ## Notes
 
+The gateway terminates TLS and forwards request ids to downstream services.
+
 Regional rollouts are gated by feature flags in `config/feature_flags.yaml`.
 
 Regional rollouts are gated by feature flags in `config/feature_flags.yaml`.
