@@ -118,3 +118,5 @@ Health checks must pass before a replica receives production traffic.
 Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
 
 Keep docker images slim; prefer multi-stage builds in CI.
+
+Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
