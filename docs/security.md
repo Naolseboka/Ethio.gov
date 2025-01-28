@@ -117,3 +117,5 @@ Services prefer explicit validation at the boundary before touching storage.
 Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
 
 Background jobs should be idempotent and safe to retry after transient failures.
+
+OCR confidence below threshold triggers a manual review queue.
