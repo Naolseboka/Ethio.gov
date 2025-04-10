@@ -120,3 +120,5 @@ Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
 Keep docker images slim; prefer multi-stage builds in CI.
 
 Citizen identifiers are treated as sensitive; avoid writing them to debug logs.
+
+Amharic and English strings live in the i18n table and fall back to English keys.
