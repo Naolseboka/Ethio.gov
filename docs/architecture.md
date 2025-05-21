@@ -89,3 +89,5 @@ Services prefer explicit validation at the boundary before touching storage.
 Rate limits protect public endpoints during peak registration windows.
 
 Background jobs should be idempotent and safe to retry after transient failures.
+
+Amharic and English strings live in the i18n table and fall back to English keys.
